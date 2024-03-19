@@ -55,61 +55,7 @@ const Contact = () => {
                 </ul>
               )}
             </div>
-            <div className="right wow fadeInRight" data-wow-duration="1s">
-              <div className="fields">
-                <form
-                  action="/"
-                  method="post"
-                  className="contact_form"
-                  id="contact_form"
-                  autoComplete="off"
-                >
-                  <div
-                    className="returnmessage"
-                    data-success="Tin nhắn của bạn đã được gửi tới Nhật Linh."
-                  />
-                  <div className="empty_notice">
-                    <span>Điền vào chỗ trống</span>
-                  </div>
-                  <div className="input_list">
-                    <ul>
-                      <li>
-                        <input id="name" type="text" placeholder="Tên của bạn" />
-                      </li>
-                      <li>
-                        <input
-                          id="email"
-                          type="text"
-                          placeholder="Gmail của bạn"
-                        />
-                      </li>
-                      <li>
-                        <input
-                          id="phone"
-                          type="number"
-                          placeholder="Số điện thoại của bạn"
-                        />
-                      </li>
-                      <li>
-                        <input id="subject" type="text" placeholder="Subject" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="message_area">
-                    <textarea
-                      id="message"
-                      placeholder="Ghi nội dung tin nhắn"
-                      defaultValue={""}
-                    />
-                  </div>
-                  <div className="dizme_tm_button">
-                    <a id="send_message" href="#">
-                      <span>Gửi</span>
-                    </a>
-                  </div>
-                </form>
-              </div>
-            </div>
+            
             <div className="brush_2 wow fadeInRight" data-wow-duration="1s">
               <img src="img/brushes/contact/2.png" alt="image" />
             </div>
