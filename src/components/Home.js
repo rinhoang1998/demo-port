@@ -46,7 +46,7 @@ const Home = ({ dark }) => {
                       data.social &&
                       data.social.map((social, i) => (
                         <li key={i}>
-                          <a href="#">
+                          <a href="https://www.facebook.com/rinhoang1998/">
                             <i className={social.icon} />
                           </a>
                         </li>
