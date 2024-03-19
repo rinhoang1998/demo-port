@@ -1,0 +1,21 @@
+﻿<li className="detail grid-item" onClick={() => setPopup(true)}>
+                <div className="inner">
+                <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Global Evolution"
+                    data-category="Detail"
+                  >
+                    <a className="portfolio_popup" href="#">
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/6.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Global Evolution</h3>
+                    <span>Detail</span>
+                  </div>
+                </div>
+              </li>

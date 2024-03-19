@@ -54,58 +54,7 @@ const Portfolio = () => {
             <span>Portfolio</span>
             <h3>My Projects</h3>
           </div>
-          <div className="portfolio_filter">
-            <ul>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("*")}`}
-                  onClick={handleFilterKeyChange("*")}
-                >
-                  All
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("youtube")}`}
-                  onClick={handleFilterKeyChange("youtube")}
-                >
-                  Youtube
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("vimeo")}`}
-                  onClick={handleFilterKeyChange("vimeo")}
-                >
-                  Vimeo
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("soundcloud")}`}
-                  onClick={handleFilterKeyChange("soundcloud")}
-                >
-                  Soundcloud
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("popup")}`}
-                  onClick={handleFilterKeyChange("popup")}
-                >
-                  Popup
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer  ${activeBtn("detail")}`}
-                  onClick={handleFilterKeyChange("detail")}
-                >
-                  Detail
-                </a>
-              </li>
-            </ul>
-          </div>
+
           <div className="dizme_tm_portfolio_titles" />
           <div className="portfolio_list wow fadeInUp" data-wow-duration="1s">
             <ul className="gallery_zoom grid">
@@ -113,135 +62,239 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Mockup Shape"
-                    data-category="Youtube"
+                    data-title="Đã Bao Lâu"
+                    data-category="Davinci Resolve"
                   >
                     <a
                       className="popup-youtube"
-                      href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
+                      href="https://www.youtube.com/embed/kj9LoqaJBjE"
                     >
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/1.jpg"
+                        data-img-url="img/portfolio/da-bao-lau.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Mockup Shape</h3>
-                    <span>Youtube</span>
+                    <h3>Đã Bao Lâu</h3>
+                    <span>Davinci Resolve</span>
                   </div>
                 </div>
               </li>
-              <li className="vimeo grid-item">
+              <li className="youtube grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Ave Bottle"
-                    data-category="Vimeo"
+                    data-title="Anh Từng"
+                    data-category="Premiere Pro, After Effect"
                   >
                     <a
-                      className="popup-vimeo"
-                      href="https://player.vimeo.com/video/337293658?autoplay=1"
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/zT8WEw8yG50"
                     >
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/2.jpg"
+                        data-img-url="img/portfolio/anh-tung.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Ave Bottle</h3>
-                    <span>Vimeo</span>
+                    <h3>Anh Từng</h3>
+                    <span>Premiere Pro, After Effect</span>
                   </div>
                 </div>
               </li>
-              <li className="soundcloud grid-item">
+              <li className="youtube grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Magic Art"
-                    data-category="Soundcloud"
+                    data-title="Chuyển Nhà"
+                    data-category="After Effect, Illustrator"
                   >
                     <a
-                      className="soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/yptf19GgHfM"
                     >
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/3.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Magic Art</h3>
-                    <span>Soundcloud</span>
-                  </div>
-                </div>
-              </li>
-              <li className="popup grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Scott Felix"
-                    data-category="Popup"
-                  >
-                    <a className="zoom" href="img/portfolio/5.jpg">
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/5.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Blue Lemon</h3>
-                    <span>Popup</span>
-                  </div>
-                </div>
-              </li>
-              <li className="popup grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Art Stone"
-                    data-category="Popup"
-                  >
-                    <a className="zoom" href="img/portfolio/4.jpg">
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/4.jpg"
+                        data-img-url="img/portfolio/chuyen-nha.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Art Stone</h3>
-                    <span>Popup</span>
+                    <h3>Chuyển Nhà</h3>
+                    <span>After Effect, Illustrator</span>
                   </div>
                 </div>
               </li>
-
-              <li className="detail grid-item" onClick={() => setPopup(true)}>
+              <li className="youtube grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Global Evolution"
-                    data-category="Detail"
+                    data-title="Không Biết Sau Này"
+                    data-category="Premiere Pro"
                   >
-                    <a className="portfolio_popup" href="#">
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/o0EoMavFudQ"
+                    >
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/6.jpg"
+                        data-img-url="img/portfolio/khong-biet-sau-nay.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Global Evolution</h3>
-                    <span>Detail</span>
+                    <h3>Không Biết Sau Này</h3>
+                    <span>Premiere Pro</span>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Hai Chiếc Giày"
+                    data-category="After Effect, Illustrator"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/kW-zYC8Kl_U"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/hai-chiec-giay.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Hai Chiếc Giày</h3>
+                    <span>After Effect, Illustrator</span>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Em Có Thấy"
+                    data-category="After Effect, Illustrator"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/yMg5SHVQ0PE"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/em-co-thay.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Em Có Thấy</h3>
+                    <span>After Effect, Illustrator</span>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Mây Trời"
+                    data-category="After Effect"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/uGMK59APYVk"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/may-troi.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Mây Trời</h3>
+                    <span>After Effect</span>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Offline"
+                    data-category="After Effect"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/t66QgPjAyTw"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/offline.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Offline</h3>
+                    <span>After Effect</span>
+                  </div>
+                </div>
+              </li> 
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="One n Only"
+                    data-category="After Effect"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/BXHOsE-wPaI"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/one-n-only.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>One n Only</h3>
+                    <span>After Effect</span>
+                  </div>
+                </div>
+              </li> 
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Pitre Freestyle"
+                    data-category="After Effect, Photoshop"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.youtube.com/embed/lS93xEmeIao"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/pitre-freestyle.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Pitre Freestyle</h3>
+                    <span>After Effect, Photoshop</span>
                   </div>
                 </div>
               </li>

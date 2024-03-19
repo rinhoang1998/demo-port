@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <Layout>
       <Head>
-        <title>Dizme | Home</title>
+        <title>Portfolio của Nhật Linh </title>
       </Head>
       <Home />
       {/* HERO */}
