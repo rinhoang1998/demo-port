@@ -27,8 +27,8 @@ const Home = ({ dark }) => {
               </div>
               <div className="job">
                 <p>
-                  Một <span className="greenText">{data && data.mainSkill}</span>{" "}
-                  tại <span className="purpleText">{data.address}</span>
+                  Một <span className="orangeText">{data && data.mainSkill}</span>{" "}
+                  tại <span className="orangeText">{data.address}</span>
                 </p>
               </div>
               <div className="text">
